@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   buttonContainer: {
-    marginVertical: 10, // Add margin between buttons
-    width: 200,         // Optional: Set a fixed width for buttons
+    marginVertical: 10, 
+    width: 200,         
   },
 });
 
