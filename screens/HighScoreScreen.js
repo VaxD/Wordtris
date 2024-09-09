@@ -8,7 +8,7 @@ const HighScoreScreen = ({ navigation }) => {
   useEffect(() => {
     const loadHighScore = async () => {
       try {
-        const savedHighScore = await AsyncStorage.getItem('HIGH_SCORE'); // Use the same key as in GameScreen.js
+        const savedHighScore = await AsyncStorage.getItem('HIGH_SCORE');
         if (savedHighScore !== null) {
           setHighScore(parseInt(savedHighScore, 10));
         }
